@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+}
+
+.top {
+background-color:rgb(48, 52, 80) ;
+color: white;
+height: 500px;
+}
+
+.title {
+    display: flex;
+    gap: 20px   ;
+    padding-left: 250px;
+    padding-right: 250px;
+    
+}
+
+.header.one {
+   margin-right: auto;
+   font-size: 18px;
+}
+
+.header.two, .header.three, .header.four {
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.contentone {  
+    display: flex;
+    height: 478px;     
+    align-items: center;
+    gap: 150px      ;
+    padding-left: 250px;
+   
+   
+}
+
+.words {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.writing {
+    font-size: 50px;
+    
+}
+
+button {
+    background-color: rgb(0, 119, 255);
+    color: white;
+    margin-top: 10px;
+}
+
+img {
+    width: 500px;
+}
+
+
