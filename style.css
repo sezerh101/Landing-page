@@ -98,25 +98,24 @@ img {
     width: 250px;
     border: solid blue;
     height: 200px;
-    border-radius: 5%;
+    border-radius: 15px;
 }
 
 .box p {
     margin: 0 ;
     text-align: center;
+    margin-top: 20px;
 }
 
 .boxes img {
     width: 250px;
     height: 200px;  
     object-fit: cover;
-      
+    border-radius: 15px;
 }
 
-.box .img-container {
-    border-radius: 5%;
-    overflow: hidden;
-}
+
+
 
 
 
