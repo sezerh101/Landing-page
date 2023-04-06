@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    
+    box-sizing: border-box;
 }
 
 .top {
@@ -71,7 +71,55 @@ img {
 
 .middle {
     background-color: lightblue;
-    height: 400px;
+    height: 400px;   
 }
+
+.middle p {
+    color: #1f2937;
+}
+
+
+.title-two {
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.boxes {
+    display: flex;  
+    justify-content: center;   
+    gap: 50px   ; 
+}
+
+.box {
+    width: 250px;
+    border: solid blue;
+    height: 200px;
+    border-radius: 5%;
+}
+
+.box p {
+    margin: 0 ;
+    text-align: center;
+}
+
+.boxes img {
+    width: 250px;
+    height: 200px;  
+    object-fit: cover;
+      
+}
+
+.box .img-container {
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+
+
+
 
 
