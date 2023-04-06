@@ -69,12 +69,11 @@ img {
     width: 500px;
 }
 
-.middle {
-    background-color: lightblue;
+.second {
     height: 400px;   
 }
 
-.middle p {
+.second p {
     color: #1f2937;
 }
 
@@ -91,20 +90,17 @@ img {
 .boxes {
     display: flex;  
     justify-content: center;   
-    gap: 50px   ; 
+    gap: 50px;
+    
 }
 
 .box {
     width: 250px;
-    border: solid blue;
-    height: 200px;
-    border-radius: 15px;
+     height: 200px;
 }
 
 .box p {
-    margin: 0 ;
-    text-align: center;
-    margin-top: 20px;
+    text-align: center;  
 }
 
 .boxes img {
@@ -112,6 +108,7 @@ img {
     height: 200px;  
     object-fit: cover;
     border-radius: 15px;
+    border: 4px solid blue;
 }
 
 
