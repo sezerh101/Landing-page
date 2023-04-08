@@ -90,20 +90,15 @@ img {
 .boxes {
     display: flex;  
     justify-content: center;   
-    gap: 50px;
+    gap: 40px;
     
-}
-
-.box {
-    width: 250px;
-     height: 200px;
 }
 
 .box p {
     text-align: center;  
 }
 
-.boxes img {
+.box img {
     width: 250px;
     height: 200px;  
     object-fit: cover;
@@ -111,7 +106,31 @@ img {
     border: 4px solid blue;
 }
 
+.third {
+    height: 300px;
+    background-color: #e5e7eb;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+}
 
+.quote {
+    font-style: italic;
+    color: #1f2937 ;
+    font-size: 36px;
+    margin: 0;
+    width: 650px;
+}
+
+.name {
+    color: #1f2937 ;
+    font-size: 30px;
+    margin: 0;
+    align-self: flex-end;
+    width: 650px;
+    font-weight: bold;
+}
 
 
 
