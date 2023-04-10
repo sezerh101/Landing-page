@@ -132,7 +132,39 @@ img {
     font-weight: bold;
 }
 
+.fourth {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
 
+.bluebox {
+    height: 150px;
+    width: 800px;
+    background-color: #3882f6;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around  ;
+    align-items: center;
+}
+
+
+.textbluebox {
+   
+    margin: 0px;
+}
+
+.boxtextbig {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.signupbutton button {
+    background-color: #3882f6;
+    border:  solid  white;
+}
 
 
 
